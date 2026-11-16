@@ -33,18 +33,50 @@ the liquidity stays locked in the pool.
 | Robinhood Chain Testnet | `0xC72A740883E93E899C02036f96841869A5BdbbDC` | DECO / ETH |
 | LitVM LiteForge Testnet | `0x3137C615F3f3B1e7C8F75390F8ccb128f4D11A3A` | DECO / zkLTC |
 | Velana Testnet | `0xa81056EF621c952B5Fc033D7db159a0Da4ED5163` | DECO / VELA |
+| Arc Testnet (Circle) | `0x53661d12527e02019d991d2f24bf4b6661a96ba7` | DM / USDC |
 
 Deploy with `deploy-amm.js`; results in `amm-results.json` (3 chains) and
 `amm-results-velana.json`. The volume sniper (deco-sniper repo) trades
-against these pools.
+against these pools. The Circle DM/USDC pool was deployed from the Circle
+agent wallet with the Circle CLI — see `circle-stack-2026-11-16.md` and
+`amm-results-circle.json`.
 
 ## DecoNameService
 
 Own ENS-style name registry (`DecoNameService`) + soulbound name NFTs
 (`DecoNameToken`). Names `deco` (#1), `muse` (#2), `0xspotonchain` (#3) all
-resolve to the burner wallet. 12 soulbound NFTs: 9 on Arc / Robinhood /
-LitVM, 3 on Velana. Transfers and approvals always revert (proven on-chain).
-Full record in `name-service.md`.
+resolve to the burner wallet; `circle` (#4, Arc only) resolves to the Circle
+agent wallet. 13 soulbound NFTs: 9 on Arc / Robinhood / LitVM, 3 on Velana,
++ #4 on Arc for Circle. Transfers and approvals always revert (proven
+on-chain). Full record in `name-service.md`.
+
+## Circle wallet stack (Arc)
+
+The burner stack, mirrored onto the Circle agent wallet
+(`0xc7d81269debced5e62069a4d42950965853aa300`) on Arc Testnet — same build,
+but the Circle wallet is a smart-contract account, so every write goes
+through the Circle CLI (`circle contract deploy` / `circle wallet execute`)
+via the bundler. Full record in `circle-stack-2026-11-16.md`.
+
+- **DM/USDC SimpleAMM pool** `0x53661d12527e02019d991d2f24bf4b6661a96ba7`,
+  seeded 10,000 DM + 10 USDC. SimpleAMM has no owner and no `msg.sender`
+  dependency in the constructor, so the SCA factory gotcha doesn't apply.
+  Volume: 100/100 buy/sell rounds via `volume-circle.js` in the deco-sniper
+  repo — 201 txs on-chain (one round double-sold when the CLI reported a
+  sell as failed after it had landed; both sells verified via Swap events).
+  Net: +0.038073 USDC, DM delta −98.36 (from 99.9T holdings).
+- **DNFT #2** — minted by the Circle wallet itself (`DecoNFT.mint` is
+  public; the Circle SCA implements `onERC721Received`, probed on-chain
+  first). Metadata set by the burner (DNFT owner), `nft-metadata-2.json`.
+- **Name "circle"** → Circle wallet, + soulbound name NFT #4. The registry
+  is burner-owned, so Circle can't self-register (simulated first: reverts
+  `OwnableUnauthorizedAccount`); the burner registered the name and minted
+  #4 to Circle.
+
+Scripts: `circle-recon.js` (read-only recon), `circle-name-batch.js`
+(burner-signed register + mint + metadata), `circle-verify-nfts.js`
+(read-only soulbound + tokenURI checks). Results: `amm-results-circle.json`,
+`circle-name-results.json`.
 
 ## Velana Testnet (4th chain)
 
