@@ -1,0 +1,29 @@
+{
+  "arc": {
+    "chain": "arc",
+    "label": "Arc Testnet",
+    "chainId": 5042002,
+    "txHash": "0x1cd1f0ea9289eacafe312c6df42bea624915f15272527fc86846695cc18f0a26",
+    "gasUsed": "1409797",
+    "explorerTx": "https://explorer.testnet.arc.io/tx/0x1cd1f0ea9289eacafe312c6df42bea624915f15272527fc86846695cc18f0a26",
+    "tokenUriLength": 1897
+  },
+  "robinhood": {
+    "chain": "robinhood",
+    "label": "Robinhood Chain Testnet",
+    "chainId": 46630,
+    "txHash": "0x3d8aeacf115ea14dc8ac63f1b1601c3fc1d9ae3cb5c8ca50a74ad671b0001259",
+    "gasUsed": "1409797",
+    "explorerTx": "https://explorer.testnet.chain.robinhood.com/tx/0x3d8aeacf115ea14dc8ac63f1b1601c3fc1d9ae3cb5c8ca50a74ad671b0001259",
+    "tokenUriLength": 1897
+  },
+  "litvm": {
+    "chain": "litvm",
+    "label": "LitVM LiteForge Testnet",
+    "chainId": 4441,
+    "txHash": "0x24598904e225945f10f3ede04f18c98e4393fa1a7f11b4ee636cac921ffbc9ac",
+    "gasUsed": "1412235",
+    "explorerTx": "https://explorer.testnet.liteforge.zeeve.net/tx/0x24598904e225945f10f3ede04f18c98e4393fa1a7f11b4ee636cac921ffbc9ac",
+    "tokenUriLength": 1897
+  }
+}

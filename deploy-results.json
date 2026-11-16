@@ -1,0 +1,68 @@
+{
+  "arc": {
+    "chain": "arc",
+    "label": "Arc Testnet",
+    "chainId": 5042002,
+    "explorer": "https://explorer.testnet.arc.io",
+    "erc20": {
+      "address": "0x5f1dF574015C9D044b4C9Ef658cD55aFcC13D783",
+      "txHash": "0x9571b610b56fdad0438de5a546a4ecf66d1aaff6b89de654a8b89fc3ca4de0d6",
+      "gasUsed": "634817"
+    },
+    "erc721": {
+      "address": "0xDf8A3BaAFffc5de3938bff1158584E841531BcbF",
+      "txHash": "0x89cd4ececd54cb91b8b5998069d0dc78f3ca52891a4ef6ee2e09e7643cec4396",
+      "gasUsed": "1276697"
+    },
+    "mint": {
+      "tokenId": 1,
+      "txHash": "0xb23c4dffc85a57c17d64e57b5b9ea52bf23568a24ff97617f3c5f0745090b85e",
+      "gasUsed": "74097"
+    },
+    "gasSpentNative": "0.049640275"
+  },
+  "robinhood": {
+    "chain": "robinhood",
+    "label": "Robinhood Chain Testnet",
+    "chainId": 46630,
+    "explorer": "https://explorer.testnet.chain.robinhood.com",
+    "erc20": {
+      "address": "0x5f1dF574015C9D044b4C9Ef658cD55aFcC13D783",
+      "txHash": "0xe78d53958d8f658e0a860de98bfd89fbfaf0034962972c1378f9ce1e4b6f59ea",
+      "gasUsed": "634817"
+    },
+    "erc721": {
+      "address": "0xDf8A3BaAFffc5de3938bff1158584E841531BcbF",
+      "txHash": "0xf287512ad2a0b951578a10041fb51e8fb515d21522b9cf9697e01160afb88599",
+      "gasUsed": "1276697"
+    },
+    "mint": {
+      "tokenId": 1,
+      "txHash": "0xae7a91cdf38bfb3fc338bec8ad49e1ce2e730f1119b6c9316565b1f5f6979f25",
+      "gasUsed": "74097"
+    },
+    "gasSpentNative": "0.00001985611"
+  },
+  "litvm": {
+    "chain": "litvm",
+    "label": "LitVM LiteForge Testnet",
+    "chainId": 4441,
+    "explorer": "https://explorer.testnet.liteforge.zeeve.net",
+    "erc20": {
+      "address": "0x5f1dF574015C9D044b4C9Ef658cD55aFcC13D783",
+      "txHash": "0x4028c462045e66c86f0ea37cae76c59a7b7512f5749b3e42ee6ae7b5a3d9a2ff",
+      "gasUsed": "638225"
+    },
+    "erc721": {
+      "address": "0xDf8A3BaAFffc5de3938bff1158584E841531BcbF",
+      "txHash": "0xca3b362ce26c538592b9a3b974a6af0f60b8564139226a71cdbb1d84c362afb3",
+      "gasUsed": "1282405"
+    },
+    "mint": {
+      "tokenId": 1,
+      "txHash": "0xae06517c000e1f30fb540b6e9087222cb9f1bde8157a81732bded481c6722557",
+      "gasUsed": "74333"
+    },
+    "gasSpentNative": "0.00001994963"
+  }
+}
