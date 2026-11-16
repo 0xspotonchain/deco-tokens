@@ -1,0 +1,96 @@
+{
+  "arc": {
+    "chain": "arc",
+    "label": "Arc Testnet",
+    "chainId": 5042002,
+    "explorer": "https://explorer.testnet.arc.io",
+    "timestamp": "2026-11-16T07:11:58.144Z",
+    "deployTx": "0x1314954cff1da856e419ec5516e397e2f043cc29f8c721ea805bbf80ec410428",
+    "amm": "0x3137C615F3f3B1e7C8F75390F8ccb128f4D11A3A",
+    "approveDecoTx": "0x84b3b9edc0e85e83569376a968ad2ff54077cbe1e6f0039284aebfb3a5cbd686",
+    "approveQuoteTx": "0x42b7b72d2566cb81984fa1394389fc28e5cfd19d9139caa525496f1d1690faac",
+    "seedTx": "0x94b1984baa707b72e733721f8f28504640838a668aae3ecf1c3357a01d0c0b34",
+    "reservesAfterSeed": {
+      "deco": "10000000000000000000000",
+      "base": "10000000"
+    },
+    "testBuyTx": "0xb36d323eb181528c3cbba96481764ce4b913d08a831b26c62770942dc5d89e74",
+    "testSellTx": "0x7c1f3edd26a82c6a825ab0964c7eed89e30e22c9dbb21533ab853dd1d85f856b",
+    "reservesAfterTestSwap": {
+      "deco": "10000000000000000000000",
+      "base": "10000594"
+    },
+    "gasUsed": {
+      "deploy": "740522",
+      "approveDeco": "46390",
+      "approveQuote": "55438",
+      "addLiquidity": "142886",
+      "testBuy": "82135",
+      "testSell": "86440"
+    },
+    "gasSpentNative": "10.029439275"
+  },
+  "litvm": {
+    "chain": "litvm",
+    "label": "LitVM LiteForge Testnet",
+    "chainId": 4441,
+    "explorer": "https://explorer.testnet.liteforge.zeeve.net",
+    "timestamp": "2026-11-16T07:13:23.321Z",
+    "amm": "0x3137C615F3f3B1e7C8F75390F8ccb128f4D11A3A",
+    "deployTx": "0x7b596d492a09ac9ccce36fe87dd3711fa2ba6639fae542d9d2e0a0bce12b8b47",
+    "approveDecoTx": "0x846318fcb1a2456ab740e477a00256aa60d0b88c5624974fa137fc8d827907e2",
+    "seedTx": "0x04c392ca1d58c5add5387d8852a5b7ddded088a3ae33eaef85b9a6c89ea17c4d",
+    "reservesAfterSeed": {
+      "deco": "10000000000000000000000",
+      "base": "1000000000000000"
+    },
+    "testBuyTx": "0x5d62318198f50f8a8d6ffc1422d0e556de414e8de4d116793c9ba6bd538d6842",
+    "testBuyReceivedDeco": "906.610893880149131581",
+    "approveSellTx": "0x651d606fb80d34ddd2eb5b78adb34a68e0ea32e918bcc3f9a839c7fb613a66e8",
+    "testSellTx": "0xe78d3ed13a17e1f9a9f8ada054c95b14ce59fbefcd44747488dc0c6fc514a531",
+    "reservesAfterTestSwap": {
+      "deco": "10000000000000000000000",
+      "base": "1000544933154048"
+    },
+    "gasUsed": {
+      "deploy": "743668",
+      "approveDeco": "46678",
+      "addLiquidity": "109290",
+      "testBuy": "53324",
+      "approveSell": "29590",
+      "testSell": "61185"
+    },
+    "gasSpentNative": "0.00001043735",
+    "recoveryNote": "deploy-amm.js failed at test sell-back: ERC20InsufficientAllowance (0xfb8f41b2) \u2014 script approved only 10,000+100 DECO, seed consumed 10,000 leaving 100, sell needed 906.61. Completed manually on the same pool: approve 906.61 DECO + sell. No redeploy; pool is the original deployment."
+  },
+  "robinhood": {
+    "chain": "robinhood",
+    "label": "Robinhood Chain Testnet",
+    "chainId": 46630,
+    "explorer": "https://explorer.testnet.chain.robinhood.com",
+    "timestamp": "2026-11-16T07:11:00Z",
+    "deployTx": "0x53af0107d6af2680ee1425dd31d98bb5c7701a74a4290a95fabb3e32251d81ee",
+    "amm": "0xC72A740883E93E899C02036f96841869A5BdbbDC",
+    "approveDecoTx": "0xf144902dbd614c70afa629a10c7ee24cb9860e13667e52f0493401660afff8a8",
+    "seedTx": "0xfdb16cbe5457e9514bf8e0a78750d725426c86a5e76707d9b584226408fce80c",
+    "reservesAfterSeed": {
+      "deco": "10000000000000000000000",
+      "base": "1000000000000000"
+    },
+    "testBuyTx": "0x314ecfc7ec464a1c31c5fdfdaf1f52f74439bbc132dda3f1c50df0b931d52e0c",
+    "testBuyReceivedDeco": "906.610893880149131581",
+    "testSellTx": null,
+    "reservesAfterTestSwap": {
+      "deco": "9093389106119850868419",
+      "base": "1100000000000000"
+    },
+    "gasUsed": {
+      "deploy": "740510",
+      "approveDeco": "46390",
+      "addLiquidity": "108990",
+      "testBuy": "53027"
+    },
+    "gasSpentNative": "0.00000948917",
+    "recoveryNote": "deploy-amm.js failed at test sell-back: ERC20InsufficientAllowance (0xfb8f41b2) \u2014 script approved only 10,000+100 DECO, seed consumed 10,000 leaving 100, sell needed 906.61. NOT retried (deterministic bug, since fixed in deploy-amm.js: approval now sized from a live getAmountOut quote). The 906.61 DECO from the test buy remains in the burner wallet; pool is live and correct. Sell-back to be completed by the proof-run step to restore seed reserves."
+  }
+}

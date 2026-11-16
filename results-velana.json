@@ -1,0 +1,32 @@
+{
+  "chain": "velana",
+  "label": "Velana Testnet",
+  "chainId": 484148,
+  "explorer": "https://velanachain.com/explorer",
+  "erc20": {
+    "address": "0xDf8A3BaAFffc5de3938bff1158584E841531BcbF",
+    "txHash": "0x157909cdb3089a76697a30839321703ab46e07a00b013b31afdfa013875982f8",
+    "gasUsed": "634817",
+    "explorerTx": "https://velanachain.com/explorer/#/tx/0x157909cdb3089a76697a30839321703ab46e07a00b013b31afdfa013875982f8"
+  },
+  "erc721": {
+    "address": "0xFb71a0C41f1D5D737acb5761eF110B1E0695fC64",
+    "txHash": "0x20d66d4321fee38c08c3619e2424f6867f8d49469c3f3a9834b26ef5b18f7d35",
+    "gasUsed": "1276697",
+    "explorerTx": "https://velanachain.com/explorer/#/tx/0x20d66d4321fee38c08c3619e2424f6867f8d49469c3f3a9834b26ef5b18f7d35"
+  },
+  "mint": {
+    "tokenId": 1,
+    "txHash": "0x2ae952e5b7f48c43f535dfd6a7bbf86f4c4912dbfaf7168452676baa5ca7fa09",
+    "gasUsed": "74097",
+    "explorerTx": "https://velanachain.com/explorer/#/tx/0x2ae952e5b7f48c43f535dfd6a7bbf86f4c4912dbfaf7168452676baa5ca7fa09"
+  },
+  "metadata": {
+    "txHash": "0xc1a81309649c807d835619ca964d506ea2f631744af105b27628778d4045c136",
+    "gasUsed": "1364343",
+    "explorerTx": "https://velanachain.com/explorer/#/tx/0xc1a81309649c807d835619ca964d506ea2f631744af105b27628778d4045c136",
+    "tokenUriLength": 1829
+  },
+  "gasSpentNative": "0.000000000023449678",
+  "updatedAt": "2026-11-16T08:01:32.010Z"
+}

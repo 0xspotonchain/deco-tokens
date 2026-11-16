@@ -1,0 +1,114 @@
+{
+  "chain": "velana",
+  "label": "Velana Testnet",
+  "chainId": 484148,
+  "explorer": "https://velanachain.com/explorer",
+  "names": {
+    "deco": {
+      "tokenId": 1,
+      "target": "0xF1d949ed9B0b62508203AB0B91Bf01E73309Ad31",
+      "txHash": "0x97f39048474dadec3868c81b763cf46e15e2bddb386162c7fd8ec0168f955ed8",
+      "gasUsed": "48956",
+      "explorerTx": "https://velanachain.com/explorer/#/tx/0x97f39048474dadec3868c81b763cf46e15e2bddb386162c7fd8ec0168f955ed8"
+    },
+    "muse": {
+      "tokenId": 2,
+      "target": "0xF1d949ed9B0b62508203AB0B91Bf01E73309Ad31",
+      "txHash": "0x6e7fcb8f8d4985a3b7765c39ca19ffcf0c7eb6da1a4254ac64c905c79b2f1b5b",
+      "gasUsed": "48956",
+      "explorerTx": "https://velanachain.com/explorer/#/tx/0x6e7fcb8f8d4985a3b7765c39ca19ffcf0c7eb6da1a4254ac64c905c79b2f1b5b"
+    },
+    "0xspotonchain": {
+      "tokenId": 3,
+      "target": "0xF1d949ed9B0b62508203AB0B91Bf01E73309Ad31",
+      "txHash": "0x460bde90fa316ff90045379b7f3380c064700a70b873151907e993a832f433f4",
+      "gasUsed": "49064",
+      "explorerTx": "https://velanachain.com/explorer/#/tx/0x460bde90fa316ff90045379b7f3380c064700a70b873151907e993a832f433f4"
+    }
+  },
+  "tokens": [
+    {
+      "tokenId": 1,
+      "name": "deco",
+      "txHash": "0x2c57af1a25d86f663344c212aaa0d27d31a93d7e9838fb67c23ae81500dc5575",
+      "gasUsed": "117358",
+      "explorerTx": "https://velanachain.com/explorer/#/tx/0x2c57af1a25d86f663344c212aaa0d27d31a93d7e9838fb67c23ae81500dc5575"
+    },
+    {
+      "tokenId": 2,
+      "name": "muse",
+      "txHash": "0x6cfcc8c00c21e3565cb43dcb461850cead2d38c2b213856ae28fe00c934861d8",
+      "gasUsed": "100258",
+      "explorerTx": "https://velanachain.com/explorer/#/tx/0x6cfcc8c00c21e3565cb43dcb461850cead2d38c2b213856ae28fe00c934861d8"
+    },
+    {
+      "tokenId": 3,
+      "name": "0xspotonchain",
+      "txHash": "0x22a9efd8758bb701010757670eac314383c3c7cd0b422b49bede4c438b4b6e6d",
+      "gasUsed": "100366",
+      "explorerTx": "https://velanachain.com/explorer/#/tx/0x22a9efd8758bb701010757670eac314383c3c7cd0b422b49bede4c438b4b6e6d"
+    }
+  ],
+  "registry": {
+    "address": "0xa9928a4D673dFb5a0922e9d76fC731c4D06Ad7c4",
+    "txHash": "0x41fb4d6a3e63791ddcec71e3b230e0c11e6e093dce7cfa0c05ba264cf6bb819f",
+    "gasUsed": "302647",
+    "explorerTx": "https://velanachain.com/explorer/#/tx/0x41fb4d6a3e63791ddcec71e3b230e0c11e6e093dce7cfa0c05ba264cf6bb819f"
+  },
+  "nft": {
+    "address": "0xC72A740883E93E899C02036f96841869A5BdbbDC",
+    "txHash": "0xd35e676b2aedc532cdfd376fc8a2cd0c610e2753f9198215d16ad2003ee90019",
+    "gasUsed": "1788032",
+    "explorerTx": "https://velanachain.com/explorer/#/tx/0xd35e676b2aedc532cdfd376fc8a2cd0c610e2753f9198215d16ad2003ee90019"
+  },
+  "verification": {
+    "resolve": {
+      "deco": "0xF1d949ed9B0b62508203AB0B91Bf01E73309Ad31",
+      "muse": "0xF1d949ed9B0b62508203AB0B91Bf01E73309Ad31",
+      "0xspotonchain": "0xF1d949ed9B0b62508203AB0B91Bf01E73309Ad31"
+    },
+    "tokenUris": {
+      "1": {
+        "name": "Deco Name #1 — deco",
+        "description": "Soulbound name token for the DecoNameService on testnets. The name \"deco\" resolves to its holder via the DecoNameService registry. Non-transferable — bound to its holder. DYOR, don't trust — verify.",
+        "svgContainsName": true,
+        "uriLength": 2189
+      },
+      "2": {
+        "name": "Deco Name #2 — muse",
+        "description": "Soulbound name token for the DecoNameService on testnets. The name \"muse\" resolves to its holder via the DecoNameService registry. Non-transferable — bound to its holder. DYOR, don't trust — verify.",
+        "svgContainsName": true,
+        "uriLength": 2189
+      },
+      "3": {
+        "name": "Deco Name #3 — 0xspotonchain",
+        "description": "Soulbound name token for the DecoNameService on testnets. The name \"0xspotonchain\" resolves to its holder via the DecoNameService registry. Non-transferable — bound to its holder. DYOR, don't trust — verify.",
+        "svgContainsName": true,
+        "uriLength": 2241
+      }
+    },
+    "soulbound": [
+      {
+        "method": "transferFrom",
+        "reverted": true,
+        "reason": "SoulboundTransferBlocked(uint256)",
+        "mentionsSoulbound": true
+      },
+      {
+        "method": "approve",
+        "reverted": true,
+        "reason": "SoulboundApprovalsDisabled()",
+        "mentionsSoulbound": true
+      },
+      {
+        "method": "setApprovalForAll",
+        "reverted": true,
+        "reason": "SoulboundApprovalsDisabled()",
+        "mentionsSoulbound": true
+      }
+    ]
+  },
+  "totalGasUsed": "2555637",
+  "gasSpentNative": "0.000000000017889459",
+  "updatedAt": "2026-11-16T08:02:23.231Z"
+}

@@ -1,0 +1,35 @@
+{
+  "chain": "velana",
+  "label": "Velana Testnet",
+  "chainId": 484148,
+  "explorer": "https://velanachain.com/explorer",
+  "deco": "0xDf8A3BaAFffc5de3938bff1158584E841531BcbF",
+  "quote": "0x0000000000000000000000000000000000000000",
+  "quoteSymbol": "VELA",
+  "nativeBase": true,
+  "timestamp": "2026-11-16T08:02:23.831Z",
+  "deployTx": "0xc517130369eb72a5d7703f20c173189ca7c0f76aee1c1f3250e4e4cac6b820a1",
+  "amm": "0xa81056EF621c952B5Fc033D7db159a0Da4ED5163",
+  "approveDecoTx": "0xe14dd12bd34e98e563914640bc234629abc31cf72b70cd1b7ad313b8a17d692f",
+  "seedTx": "0xaa3dade13eb87b2fa5a26a8aff11108d37cac0a35f5b9c39db264c0ea27a152f",
+  "reservesAfterSeed": {
+    "deco": "10000000000000000000000",
+    "base": "1000000000000000"
+  },
+  "testBuyTx": "0x326f0a85c1214078def83358da698e4da254ac671d88cf22055b320f53952687",
+  "testBuyReceivedDeco": "906610893880149131581",
+  "testSellTx": "0xe68884bd157e5be1e784b14f8b69592a0f517d21bfa5c2bf91767409a14b5dd8",
+  "reservesAfterTestSwap": {
+    "deco": "10000000000000000000000",
+    "base": "1000544933154048"
+  },
+  "gasUsed": {
+    "deploy": "740510",
+    "approveDeco": "46414",
+    "addLiquidity": "108990",
+    "testBuy": "53027",
+    "testSell": "65696"
+  },
+  "gasSpentNative": "0.001000544940256507",
+  "updatedAt": "2026-11-16T08:03:01.155Z"
+}
