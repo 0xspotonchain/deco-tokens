@@ -19,6 +19,31 @@ from the Circle agent wallet on Arc Testnet (deployed with the Circle CLI,
   a bundler, so `msg.sender` in the constructor is the factory, not the wallet.
 - Logo: `dm-logo.svg` / `dm-logo-256.png` / `dm-logo-512.png`
 
+## SimpleAMM pools
+
+Own constant-product DEX pools (`contracts/SimpleAMM.sol`, x·y=k, 0.3% fee),
+one per chain, seeded 10,000 DECO + base each. No remove-liquidity function —
+the liquidity stays locked in the pool.
+
+| Chain | Pool | Pair |
+|---|---|---|
+| Arc Testnet | `0x3137C615F3f3B1e7C8F75390F8ccb128f4D11A3A` | DECO / USDC |
+| Robinhood Chain Testnet | `0xC72A740883E93E899C02036f96841869A5BdbbDC` | DECO / ETH |
+| LitVM LiteForge Testnet | `0x3137C615F3f3B1e7C8F75390F8ccb128f4D11A3A` | DECO / zkLTC |
+| Velana Testnet | `0xa81056EF621c952B5Fc033D7db159a0Da4ED5163` | DECO / VELA |
+
+Deploy with `deploy-amm.js`; results in `amm-results.json` (3 chains) and
+`amm-results-velana.json`. The volume sniper (deco-sniper repo) trades
+against these pools.
+
+## DecoNameService
+
+Own ENS-style name registry (`DecoNameService`) + soulbound name NFTs
+(`DecoNameToken`). Names `deco` (#1), `muse` (#2), `0xspotonchain` (#3) all
+resolve to the burner wallet. 12 soulbound NFTs: 9 on Arc / Robinhood /
+LitVM, 3 on Velana. Transfers and approvals always revert (proven on-chain).
+Full record in `name-service.md`.
+
 ## Layout
 
 - `contracts/DecoToken.sol` — fixed 1,000,000 supply, minted to deployer.
