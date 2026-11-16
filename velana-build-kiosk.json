@@ -1,0 +1,14 @@
+{
+  "task": "build+tier",
+  "points": 70,
+  "plot": 0,
+  "item": 1,
+  "itemName": "Kiosk",
+  "tier": 4,
+  "tierName": "Luxury",
+  "cost": "1250000000000000000",
+  "tx": "0x085f4ca5e992c58c2ecb0a03fc8ab68587828d3d58141b01ddc2d73f049e09a3",
+  "block": 6619,
+  "explorer": "https://velanachain.com/explorer/#/tx/0x085f4ca5e992c58c2ecb0a03fc8ab68587828d3d58141b01ddc2d73f049e09a3",
+  "at": "2026-11-16T12:47:13.406Z"
+}

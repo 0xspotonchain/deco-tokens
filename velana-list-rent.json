@@ -1,0 +1,17 @@
+{
+  "task": "rent_out",
+  "points": 30,
+  "plot": 0,
+  "perDay": "50000000000000000",
+  "minDays": 1,
+  "maxDays": 7,
+  "depositTxs": [
+    "0xe6669665461a5b1e3a9dfc155eabc173cd02b863ee34ebdf0804d7043a96048f",
+    "0x05db918fdd3228303fa3d1e3096382cad98be913add01dcea3586091270543f1"
+  ],
+  "tx": "0xfccf91400b67c5311a6528a8a8552759204ca6aa1bbb5cc9ed60fcdd66141c9b",
+  "block": 6625,
+  "explorer": "https://velanachain.com/explorer/#/tx/0xfccf91400b67c5311a6528a8a8552759204ca6aa1bbb5cc9ed60fcdd66141c9b",
+  "at": "2026-11-16T12:48:04.554Z",
+  "note": "Rent listing live. The +30 completes only when someone rents it (Rented event)."
+}

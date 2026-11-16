@@ -1,0 +1,14 @@
+{
+  "task": "buy_land",
+  "points": 30,
+  "saleId": 3,
+  "plotIds": [
+    2722
+  ],
+  "price": "1500000000000000000",
+  "seller": "0x5f04F594825D59e227cFCB5E466EB6bAD60e1A7f",
+  "tx": "0x2edc37723020099de2f0b4b74b559f5a4038a7d64cf93cb5206cef15de58e4b7",
+  "block": 6616,
+  "explorer": "https://velanachain.com/explorer/#/tx/0x2edc37723020099de2f0b4b74b559f5a4038a7d64cf93cb5206cef15de58e4b7",
+  "at": "2026-11-16T12:46:49.455Z"
+}

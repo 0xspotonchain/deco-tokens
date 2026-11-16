@@ -1,0 +1,16 @@
+{
+  "task": "launch",
+  "points": 40,
+  "token": "0xcA5987dACb20D79a420A844181A07cc94A94Ef36",
+  "index": 1,
+  "name": "Deco Muse",
+  "symbol": "DM",
+  "decimals": 18,
+  "totalSupply": "100000000000000000000000000000000",
+  "burnerBalance": "100000000000000000000000000000000",
+  "feePaid": "100000000000000000",
+  "tx": "0x825567bad73d1d5bea6a70b174c2f7d63347046293b5df617e27cb22ea51e642",
+  "block": 6614,
+  "explorer": "https://velanachain.com/explorer/#/tx/0x825567bad73d1d5bea6a70b174c2f7d63347046293b5df617e27cb22ea51e642",
+  "at": "2026-11-16T12:46:43.674Z"
+}

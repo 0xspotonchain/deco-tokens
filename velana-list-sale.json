@@ -1,0 +1,16 @@
+{
+  "task": "sell_land",
+  "points": 30,
+  "plot": 2722,
+  "saleId": 4,
+  "price": "1000000000000000000",
+  "depositTxs": [
+    "0x06193c392a48ee66323d241d92e187637058acefe56032ab219d7605274b0d0d",
+    "0xb3a2c763eeda1d9ac05524318d225e7bfaba3be68c8492712cc4d4693d5c36a0"
+  ],
+  "tx": "0x3f4adc5d5a9da092f7fa99bf8021343fb664cafd484abe3fb0be049a809a9665",
+  "block": 6622,
+  "explorer": "https://velanachain.com/explorer/#/tx/0x3f4adc5d5a9da092f7fa99bf8021343fb664cafd484abe3fb0be049a809a9665",
+  "at": "2026-11-16T12:47:31.362Z",
+  "note": "Listing live. The +30 completes only when a buyer buys it (Sold event, burner as seller)."
+}
