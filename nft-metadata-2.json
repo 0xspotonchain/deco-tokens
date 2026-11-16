@@ -1,0 +1,23 @@
+{
+  "name": "Deco NFT #2",
+  "description": "Deco's second testnet NFT — minted by the Circle agent wallet on Arc Testnet. DYOR, don't trust — verify, not your keys, not your coins.",
+  "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHJlY3Qgd2lkdGg9IjUxMiIgaGVpZ2h0PSI1MTIiIGZpbGw9IiMwYTBhMGYiLz48Y2lyY2xlIGN4PSIyNTYiIGN5PSIyMDUiIHI9IjExNSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZjVjNTE4IiBzdHJva2Utd2lkdGg9IjYiLz48dGV4dCB4PSIyNTYiIHk9IjIyMiIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSI3MiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNmNWM1MTgiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkRFQ088L3RleHQ+PHRleHQgeD0iMjU2IiB5PSIzMzUiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMzAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiPk5GVCAjMjwvdGV4dD48dGV4dCB4PSIyNTYiIHk9IjM4NSIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSIxNiIgZmlsbD0iIzk5OTk5OSIgdGV4dC1hbmNob3I9Im1pZGRsZSI+RFlPUiAtIERPTiYjMzk7VCBUUlVTVCwgVkVSSUZZPC90ZXh0Pjx0ZXh0IHg9IjI1NiIgeT0iNDcwIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjE0IiBmaWxsPSIjNTU1NTU1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5BUkMgVEVTVE5FVCAtIENJUkNMRSBXQUxMRVQ8L3RleHQ+PC9zdmc+",
+  "attributes": [
+    {
+      "trait_type": "Token",
+      "value": "#2"
+    },
+    {
+      "trait_type": "Collection",
+      "value": "Deco NFT"
+    },
+    {
+      "trait_type": "Network",
+      "value": "Testnet"
+    },
+    {
+      "trait_type": "Minter",
+      "value": "Circle agent wallet"
+    }
+  ]
+}

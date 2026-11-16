@@ -1,0 +1,29 @@
+{
+  "chain": "arc",
+  "chainId": 5042002,
+  "timestamp": "2026-11-16T15:17:00.632Z",
+  "circleRegisterSimulation": {
+    "reverted": true,
+    "reason": "execution reverted (unknown custom error) (action=\"call\", data=\"0x118cdaa7000000000000000000000000c7d81269debced5e62069a4d42950965853aa300\", reason=null, transaction={ \"data\": \"0x1e59c5290000000000000",
+    "fullError": "execution reverted (unknown custom error) (action=\"call\", data=\"0x118cdaa7000000000000000000000000c7d81269debced5e62069a4d42950965853aa300\", reason=null, transaction={ \"data\": \"0x1e59c5290000000000000000000000000000000000000000000000000000000000000040000000000000000000000000c7d81269debced5e62069a4d42950965853aa3000000000000000000000000000000000000000000000000000000000000000006636972636c65000000000"
+  },
+  "registerTx": "0xaf8b5c4cbcc7fa99d160aba6a6200ce0b2d11d3a238af27c6b24c011fde96145",
+  "registerGas": "48968",
+  "mintTx": "0x00de331fbc834df65ce34dd409af16964117bd669bfe449d722d3f91e46f1ce4",
+  "mintGas": "126071",
+  "setTokenUriTx": "0x7d6fac281307ca7f8ede127c7c4b2866128e08e5f6e2146cdb3e9f5e333bcace",
+  "setTokenUriGas": "1387094",
+  "verification": {
+    "resolveCircle": "0xC7d81269DeBCeD5E62069A4d42950965853AA300",
+    "tokenIdForName": "4",
+    "ownerOf4": "0xC7d81269DeBCeD5E62069A4d42950965853AA300",
+    "tokenName4": "circle",
+    "circleDnameBalance": "1",
+    "tokenUri2Length": 1865
+  },
+  "explorer": {
+    "registerTx": "https://explorer.testnet.arc.io/tx/0xaf8b5c4cbcc7fa99d160aba6a6200ce0b2d11d3a238af27c6b24c011fde96145",
+    "mintTx": "https://explorer.testnet.arc.io/tx/0x00de331fbc834df65ce34dd409af16964117bd669bfe449d722d3f91e46f1ce4",
+    "setTokenUriTx": "https://explorer.testnet.arc.io/tx/0x7d6fac281307ca7f8ede127c7c4b2866128e08e5f6e2146cdb3e9f5e333bcace"
+  }
+}
