@@ -24,6 +24,10 @@ node deploy.js --chain=arc      # one chain (arc | robinhood | litvm)
 
 A re-deploy creates NEW contract addresses (the burner nonce has advanced).
 
+## Credits
+
+Name service, soulbound name NFTs and SimpleAMM pools are modeled on our friend [0xzunid](https://github.com/0xzunid)'s approach ([0xzunid.muse](https://0xzunid.github.io/0xzunid.muse.ai/)) — credit where it's due.
+
 ## Built with
 
 Built with [Muse](https://muse.ai) — deco's AI agent.
