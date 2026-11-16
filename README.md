@@ -23,3 +23,7 @@ node deploy.js --chain=arc      # one chain (arc | robinhood | litvm)
 ```
 
 A re-deploy creates NEW contract addresses (the burner nonce has advanced).
+
+## Built with
+
+Built with [Muse](https://muse.ai) — deco's AI agent.
